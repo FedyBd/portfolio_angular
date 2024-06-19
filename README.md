@@ -1,27 +1,4 @@
-# Portfolio
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Capture d’écran (349)](https://github.com/FedyBd/portfolio_angular/assets/147521655/d45b625d-2368-487a-a3a5-650447dbe805)
+![Capture d’écran (345)](https://github.com/FedyBd/portfolio_angular/assets/147521655/620efc67-8959-4100-815c-0d460f9c06aa)
+![Capture d’écran (347)](https://github.com/FedyBd/portfolio_angular/assets/147521655/36e97075-03e9-4fa1-83ff-dd6f0370e571)
+![Capture d’écran (348)](https://github.com/FedyBd/portfolio_angular/assets/147521655/8a41ebe8-ae24-4075-ab8d-3f2c55e13556)
