@@ -1,0 +1,128 @@
+<div class="container text-center">
+    <button class="btn btn-primary mb-5 shadow border" (click)="DownloadFile()">Download PDF Resume</button>
+    <div class="pb-2">
+        <accordion [isAnimated]="true" class="shadow">
+            <accordion-group [(isOpen)]="isWorkExperienceOpen" >
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="color: white; visibility: hidden; ">></div>
+                    <div class="btn-link">Work Experience</div>
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
+                        <div *ngIf="isWorkExperienceOpen" style="color: white;">v</div>
+                    </div>
+                    
+                </button> 
+                <div style="display: flex;
+                justify-content: space-between;
+                align-items: center;">
+                    <div class="head">
+                        <h2 class="mb-0">Embedded systems Intern</h2>
+                    </div>
+                        <h6>07/2023 - 08/2023</h6>
+                </div>
+                <h3 class="text-primary" style="text-align: left;">Ouerkema Innovation</h3>
+                <ul style="text-align: left;">
+                    <li>Configuré une carte Raspberry Pi 4 et connectée au cloud via la plateforme Cayenne,
+                        permettant une gestion et un monitoring à distance efficaces.
+                    </li>
+                    <li>Automatisé le contrôle des actionneurs de la carte en fonction des données reçues des
+                        capteurs, améliorant la réactivité et l'efficacité du système.
+                    </li>
+                    <li>Développé une application de bureau pour contrôler les actionneurs connectés à la carte via
+                        des requêtes HTTP, offrant une interface utilisateur pratique et fonctionnelle.
+                    </li>
+                    <li>Développé et hébergé un serveur Flask sur la carte, facilitant l'envoi et la réception des
+                        requêtes pour une communication fluide entre les dispositifs.
+                    </li>
+                    <li>Construit une base de données d'utilisateurs, renforçant la sécurité de l'application et
+                        améliorant la gestion des accès.
+                    </li>
+                </ul>
+                <div style="display: flex;
+                justify-content: space-between;
+                align-items: center;">
+                    <div class="head">
+                        <h2 class="mb-0">Seasonal Agent</h2>
+                    </div>
+                        <h6>07/2022 - 08/2022</h6>
+                </div>
+                <h3 class="text-primary" style="text-align: left;">La poste Tunisienne</h3>
+                <ul style="text-align: left;">
+                    <li>Collaboré au sein d'une équipe de 7 guichetiers et administrateurs, assurant une
+                    coordination efficace et une fluidité opérationnelle.</li>
+                    <li>Géré des transactions financières au guichet avec contact direct avec les clients,
+                    garantissant un service rapide et précis, améliorant ainsi la satisfaction client.</li>
+                    <li>Effectué des retraits et des versements sur des comptes postaux, contribuant à une gestion
+                    efficace des finances des clients.</li>
+                    <li>Administré des paiements et émis des mandats nationaux et internationaux facilitant les
+                    transferts d'argent sécurisés et fiables pour les clients.</li>
+
+                </ul>
+            </accordion-group>
+            <accordion-group [(isOpen)]="isEducationOpen" >
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="color: white; visibility: hidden; ">></div>
+                    <div class="btn-link">Education</div>
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isEducationOpen" style="color: white;">></div>
+                        <div *ngIf="isEducationOpen" style="color: white;">v</div>
+                    </div>
+                </button> 
+            </accordion-group>
+            <accordion-group [(isOpen)]="isCertificationOpen" >
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="color: white; visibility: hidden; ">></div>
+                <div class="btn-link">Certification</div>
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isCertificationOpen" style="color: white;">></div>
+                    <div *ngIf="isCertificationOpen" style="color: white;">v</div>
+                </div>
+            </button> 
+            </accordion-group>
+            <accordion-group [(isOpen)]="isSkillsOpen" >
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="color: white; visibility: hidden; ">></div>
+                <div class="btn-link">Skills</div>
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isSkillsOpen" style="color: white;">></div>
+                    <div *ngIf="isSkillsOpen" style="color: white;">v</div>
+                </div>
+            </button> 
+                <div class="row" style="text-align: left;">
+                    <div class="col">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>C & C++</li>
+                            <li>JAVA</li>
+                            <li>Dart</li>
+                            <li>Javascript & Typescript</li>
+                            <li>Assembly</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>FrameWorks</h3>
+                        <ul>
+                            <li>Angular</li>
+                            <li>Flutter</li>
+                            <li>Tensorflow</li>
+                            <li>Pytorch</li>
+                            <li>Flask</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Other Skills</h3>
+                        <ul>
+                            <li>Ms Azure</li>
+                            <li>Matlab</li>
+                            <li>Labview</li>
+                            <li>Proteus</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </accordion-group>
+        </accordion>
+    </div>
+    
+</div>

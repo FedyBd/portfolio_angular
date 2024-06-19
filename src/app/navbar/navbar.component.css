@@ -1,0 +1,8 @@
+.nav-item {
+    transition: background-color 0.3s ease; /* Optional: for smooth transition */
+  }
+  
+  .nav-item:hover {
+    background-color: #f0f0f0; /* Change this to the color you prefer */
+  }
+  

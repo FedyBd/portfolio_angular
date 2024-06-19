@@ -1,0 +1,18 @@
+.jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  .text-center {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .header-image {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-left: 20px; /* Space between text and image */
+  }
+  
